@@ -43,14 +43,22 @@ console.log(typeof null);
 // EXERCISE 1. Create an object to represent a person.
 //////////////////////////////////////////////////////
 
+
 // a. The person is identified by two properties: name and year.
 // Let's pick Brendan Eich, the creator of JavaScript. The guy who
 // decided that the type of null is 'object'.
 // Hint. The property name must contain the full name (Brendan Eich), and
 // the property birth must contain the year in which he was born (1961).
+person = {
+    name: "Brendan Eich",
+    year: 1961
+};
+console.log(person)
+
 
 // b. Access the properties of the person object.
-
+console.log(person.name);
+console.log(person.year);
 
 // EXERCISE 2. Add and remove properties to the person object.
 //////////////////////////////////////////////////////

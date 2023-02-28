@@ -25,7 +25,7 @@ console.log(typeof obj);
 array = [];
 // An empty array.
 console.log(typeof array);
-// Arrays are containers for variables indexed by a number. They are faster
+// Arrays are containers for variables indexed by a number. They are fasterrr
 // to iterate through than objects. Like objects, they can contain variables
 // of any type.
 

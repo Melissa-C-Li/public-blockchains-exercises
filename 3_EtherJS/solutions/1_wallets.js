@@ -175,7 +175,7 @@ console.log('Num of variables in .env to check: ', variablesToCheck.length);
 
 // Solution 1. forEach.
 variablesToCheck.forEach(v => {
-    if (!process.env[v]) {
+    if (!process.env[v]) {  //means v is not find (! means not) in the loop, keep dping if loop
         console.log(process.env[v])
         console.log(`Missing ${v}, fix your .env file`);
     }
